@@ -1,0 +1,42 @@
+.box {
+  position: absolute;
+  top: 0;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: #54cfb3;
+  padding-top: 70px;
+  z-index: 50;
+}
+
+.text {
+  margin-top: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.opac {
+  opacity: .8;
+}
+
+.move-cursor {
+  cursor: move;
+}
+
+.grab-cursor {
+  cursor: grab;
+  cursor: -webkit-grab;
+}
+
+canvas{
+	position: absolute;
+	top:0;
+	z-index: 0;
+}
+
+img{
+	z-index: 100;
+}
